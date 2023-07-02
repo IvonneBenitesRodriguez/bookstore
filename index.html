@@ -5,9 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookstore</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    
+    <header>
+        <nav class="nav-bar">
+           <div class="logo"> 
+                <a href="#"><img src="./img/book-logo.png" width="100" alt="logo"></a>
+            </div>
+                <ul class="nav-list">
+                    <li class="list-item"><a href="#libreria">La Libreria</a></li>
+                    <li class="list-item"><a href="#categorias">Categorias</a></li>
+                    <li class="list-item"><a href="#rebajas">Rebajas</a></li>
+                    <li class="list-item"><a href="#escribenos">Escribenos</a></li>
+                </ul>
+        </nav>
+    </header>
+    <section class="bookstore-story">
+        <article class="content">
+            <h3  id="libreria">Nuestros Inicios</h3>
+            <section class="img-texto">
+                <figure>
+                    <img src="./img/bookstore.jpeg" width="350" alt="image old bookstore">
+                    <figcaption><em><strong>Primera libreria Eco-Digital 2023</strong></em></figcaption>
+                </figure>
+                <p class="text-story">La librería abrió sus puertas en septiembre de ese año, y su primera sede estuvo en la calle Victoria (hoy Hipólito Yrigoyen) 653, entre Perú y Chacabuco, en pleno centro de la ciudad de Buenos Aires.
+                    El marco era una Argentina próspera, en plena expansión, con una población ávida de información y preocupada por cultivarse. Algo en lo que colaboraban la educación obligatoria y el deseo de los inmigrantes por incorporarse a la nueva realidad que les tocaba vivir. A ese país llegó Pedro García, inmigrante de origen español, nacido en Logroño, quien de algún modo quiso devolver el entrañable amparo que le dio su país de adopción. Y que terminó por ser conocido como "el as de los libreros de América".
+                    Actualmente, presentamos esta propuesta digital para nuestro publico de hoy y siempre, la idea es compartir libros que ya usaste y cambiarlos por aquellos que te gustaria leer a un precio modico que solo es para la conservacion del libro.
+                </p>
+            </section>
+            <figure>
+                <blockquote>
+                <p> El libro para leer no es el que piensa por ti, sino el que te hace pensar</p>
+                </blockquote>
+                <figcaption class="blockquote-title">-Anonimo</figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <section class="categories">
+        <article class="categories-content">
+            <h3 id="categorias">Categorias</h3>
+            <section class="img-categories">
+                <figure class="title-img-subtitle">
+                    <h4>Clasicos</h4>
+                    <img src="./img/classic-book.jpeg" width="350" class="zoom" alt="classical books">
+                    <figcaption>+ 300 ejemplares</figcaption>
+                </figure>
+                <figure class="title-img-subtitle">
+                    <h4>Madres & Niños</h4>
+                    <img src="./img/kids-book.jpeg" width="350" class="zoom" alt="classical books">
+                    <figcaption>+ 600 ejemplares</figcaption>
+                </figure>
+                <figure class="title-img-subtitle">
+                    <h4>Viajes</h4>
+                    <img src="./img/travel-book.jpeg" width="350" class="zoom" alt="classical books">
+                    <figcaption>+ 1000 ejemplares</figcaption>
+                </figure>
+            </section>
+        </article>
+        <aside>
+            <section class="content-aside">
+                <h4 id="rebajas">Rebajas</h4>
+                <ul>
+                    <li><s>Antes 20 soles</s></li>
+                    <li>Ahora solo 8 soles -- Libros Clasicos</li>
+                    <li><s>Antes 60 soles</s></li>
+                    <li>Ahora solo 20 soles -- Libros Madres & Niños</li>
+                    <li><s>Antes 80 soles</s></li>
+                    <li>Ahora solo 10 soles -- Libros Viajes</li>
+                 </ul>
+            </section>
+        </aside>
+    </section>
+
+    <form class="subscription-form">
+        <p class="title-subscribe">Registrate a nuestra lista de correos:</p>
+        <input type="text" name="email" class="space-form" />
+        <input type="submit" name="subscribe" value="Registrate" class="registration-form"/>
+    </form>
+<hr>
+    <section class="form-contact">
+        <h4 class="form-title" id="escribenos">Consultas y dudas</h4>
+        <form class="contact-form">
+            <fieldset>
+                <label>
+                    Nombre: 
+                    <input type="text" name="name" class="input-name" size="30" maxlength="100">
+                </label>
+                <br/>
+                <label>
+                    Email:
+                    <input type="email" name="email" class="input-email" size="30" maxlength="100" >
+                </label>
+                <br/>
+                <p>
+                    <label for="comments" class="label-comment">
+                        Comments:
+                    </label>
+                    <br/>
+                    <textarea rows="4" cols="40" id="comments">
+                    </textarea>
+                </p>
+                <input type="submit" value="Enviar" class="enviar">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <section class="main-footer">
+            <section class="footer-part">
+                <h2 class="footer-text">Nuestra Libreria</h2>
+                <p>Nuestra libreria es 100% digital e interactiva.
+                    Tenemos la filosofia de compartir educacion mediante
+                    la prestacion de libros.
+                    Te pagamos por el libro que entregues en buenas condiciones.
+                </p>
+            </section>
+            <section class="footer-part">
+                <h2 class="footer-text">Categorias</h2>
+                <ul>
+                    <li>Clasicos</li>
+                    <li>Libros para niños</li>
+                    <li>Libros de Viajes</li>
+                </ul>
+            </section>
+            <section class="footer-part">
+                <h2 class="footer-text">Rebajas</h2>
+                <ul>
+                    <li>50% Libros para niños</li>
+                    <li>40% Libros para viajes</li>
+                    <li>70% Libros clasicos</li>
+                </ul>
+            </section>
+            <section class="footer-part icons">
+                <a href="#"><img src="./img/instagram.png" width="40" alt="instagram icon"></a>
+                <a href="#"><img src="./img/pinterest.png" width="40" alt="pinterest icon"></a>
+                <a href="#"><img src="./img/etsy.png" width="40" alt="etsy icon"></a>
+            </section>
+        </section>
+        <section class="footer-author">
+         <p>@2023 Copyright: Ivonne Benites</p>
+        </section>
+    </footer>
+
 </body>
 </html>
