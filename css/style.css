@@ -106,3 +106,27 @@ section.img-categories{
 .content-aside ul li{
     list-style-type: none;
 }
+form{
+   margin-top: 2%;
+   padding-top: 2%;
+    text-align: center;
+   background-image: url(../img/fondo-navbar.png);
+    padding-bottom: 2%;
+}
+p.title-subscribe{
+margin-top: 2%;
+margin-bottom: 1%;
+font-size: 1.3rem;
+}
+.registration-form{
+    background-color: blue;
+    padding: 1% 1%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.space-form{
+    padding: 1% 4%;
+    border-radius: 20px;
+    border: solid 2px white;
+}
