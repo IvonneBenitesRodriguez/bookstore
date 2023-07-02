@@ -181,3 +181,37 @@ fieldset{
     border: solid 2px pink;
     border-radius: 25px;
 }
+.main-footer{
+    background-color: #F7F4FA;
+    color: #222831;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.footer-part{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+}
+.footer-part ul li{
+    list-style-type: none;
+}
+.footer-part h2.footer-text{
+    margin-bottom: 3%;
+}
+.footer-text p{
+    font-size: 1.3rem;
+}
+.icons{
+    align-items: center;
+}
+.footer-author{
+    background-color: #EFC80A;
+    padding: 2%;
+}
+.footer-author p{
+    text-align: center;
+    font-size: 1.2rem;
+}
