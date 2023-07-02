@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+   background-image: url(../img/fondo-navbar.png);
+   background-position: center;
+   background-size: cover;
+   color: gray;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.nav-list .list-item a{
+    color: #222831;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.nav-list .list-item a:hover{
+    color: fuchsia;
+}
