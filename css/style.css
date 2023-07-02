@@ -74,3 +74,35 @@ blockquote p::after{
 .blockquote-title{
     margin-top: 1%;
 }
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+.categories-content{
+   text-align: center;
+}
+section.img-categories{
+    margin-top: 8%;
+}
+.title-img-subtitle h4{
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+.content-aside{
+    background-image: url(../img/fondo-sales.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4%;
+    padding-bottom: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.content-aside h4{
+    text-align: center;
+    margin-bottom: 4%;
+}
+.content-aside ul li{
+    list-style-type: none;
+}
