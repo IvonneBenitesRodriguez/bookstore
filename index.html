@@ -17,7 +17,7 @@
                     <li class="list-item"><a href="#">La Libreria</a></li>
                     <li class="list-item"><a href="#categorias">Categorias</a></li>
                     <li class="list-item"><a href="#rebajas">Rebajas</a></li>
-                    <li class="list-item"><a href="#">Escribenos</a></li>
+                    <li class="list-item"><a href="#escribenos">Escribenos</a></li>
                 </ul>
         </nav>
     </header>
@@ -79,11 +79,37 @@
         </aside>
     </section>
 
-    <form>
+    <form class="subscription-form">
         <p class="title-subscribe">Registrate a nuestra lista de correos:</p>
         <input type="text" name="email" class="space-form" />
         <input type="submit" name="subscribe" value="Registrate" class="registration-form"/>
     </form>
-
+<hr>
+    <section class="form-contact">
+        <h4 class="form-title" id="escribenos">Consultas y dudas</h4>
+        <form class="contact-form">
+            <fieldset>
+                <label>
+                    Nombre: 
+                    <input type="text" name="name" class="input-name" size="30" maxlength="100">
+                </label>
+                <br/>
+                <label>
+                    Email:
+                    <input type="email" name="email" class="input-email" size="30" maxlength="100" >
+                </label>
+                <br/>
+                <p>
+                    <label for="comments" class="label-comment">
+                        Comments:
+                    </label>
+                    <br/>
+                    <textarea rows="4" cols="40" id="comments">
+                    </textarea>
+                </p>
+                <input type="submit" value="Enviar" class="enviar">
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>
